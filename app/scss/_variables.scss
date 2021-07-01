@@ -1,0 +1,40 @@
+/* Colors */
+
+/* Primary */
+
+$light-red-cta-text: hsl(356, 100%, 66%);
+$very-light-red-cta-hover-background: hsl(355, 100%, 74%);
+$very-dark-blue-headings: hsl(208, 49%, 24%);
+
+/* Neutral */
+
+$white-text: hsl(0, 0%, 100%);
+$grayish-blue-footer-text: hsl(240, 2%, 79%);
+$very-dark-grayish-blue-body-copy: hsl(207, 13%, 34%);
+$very-dark-black-blue-footer-background: hsl(240, 10%, 16%);
+
+
+/* Gradient */
+
+$background-gradient-intro: linear-gradient(135deg,hsl(13, 100%, 72%), hsl(353, 100%, 62%));
+
+$background-gradient-body: linear-gradient(hsl(237, 17%, 21%),hsl(237, 23%, 32%));
+
+$bg-submenu: rgb(239, 239, 241);
+/* ### Gradient
+
+Background gradient - Intro/CTA mobile nav:
+
+- Very light red: hsl(13, 100%, 72%)
+- Light red: hsl(353, 100%, 62%)
+
+Background gradient - body:
+
+- Very dark gray blue: hsl(237, 17%, 21%)
+- Very dark desaturated blue: hsl(237, 23%, 32%) */
+
+/* Font Sizes */
+$font-sm: 0.875rem; // 14px
+$font-med: 1rem; // 18px
+$font-lg: 1.25rem; // 20px
+$font-xlg: 3.25rem; // 52px

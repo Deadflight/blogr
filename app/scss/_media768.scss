@@ -1,0 +1,21 @@
+@media screen and (min-width: 768px){
+  .img-editor{
+    width: 80%;
+  }
+  .empty{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .img-phones{
+    position: relative;
+    left: 0;
+    margin-top: 30rem;
+    width: 48rem;
+  }
+
+  .img-laptop{
+    width: 80%;
+  }
+}

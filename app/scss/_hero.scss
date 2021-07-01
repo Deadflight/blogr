@@ -1,0 +1,88 @@
+.hero{
+  width: 100%;
+  height: 56.5rem;
+
+  background-image: url(../images/bg-pattern-intro.svg), $background-gradient-intro;
+  background-size: 350%, 100%;
+  background-position: 35% 34%, 0% 0%;
+  background-repeat: no-repeat, no-repeat;
+  border-bottom-left-radius: 100px;
+  padding: 5.7rem 2.5rem 0 2.5rem;
+}
+
+.nav{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.brand{
+  height: 3.2rem;
+}
+
+.hero-text-wrapper{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-top: 10rem;
+
+  h1{
+    color: $white-text;
+    font-size: 3.5rem;
+    text-align: center;
+    font-weight: 600;
+
+    span{
+      display: block;
+    }
+  }
+
+  h2{
+    color: $white-text;
+    text-align: center;
+    font-weight: 300;
+    margin-top: 1.3rem;
+    font-size: 1.8rem;
+  }
+}
+
+.btn-wrapper{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 100%;
+  margin-top: 3.5rem;
+}
+
+.btn{
+  height: 4.8rem;
+  width: 13.8rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.8rem;
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: 500;
+  border-radius: 5rem;
+}
+
+.btn-primary{
+  background-color: $white-text;
+  color: $light-red-cta-text;
+
+  &:hover{
+    background-color: $very-light-red-cta-hover-background;
+    color: $white-text;
+  }
+}
+
+.btn-secondary{
+  border: 1px solid $white-text;
+  color: $white-text;
+
+  &:hover{
+    background-color: $white-text;
+    color:  $light-red-cta-text;
+  }
+}
